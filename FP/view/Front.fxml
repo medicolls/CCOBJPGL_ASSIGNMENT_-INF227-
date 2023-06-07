@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="controller.FrontController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="473.0" prefWidth="582.0">
+         <children>
+            <ImageView fitHeight="323.0" fitWidth="600.0" layoutX="-9.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cover.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/x30750.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="shopbutton" layoutX="265.0" layoutY="257.0" mnemonicParsing="false" onAction="#viewshop" text="View Shop" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
